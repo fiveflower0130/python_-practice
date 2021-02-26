@@ -25,12 +25,12 @@
 #         break
 retry = 3
 while True:
+    retry = retry - 1
     password = input('please input password: ')
     if password == 'a123456':
         print('login success!!')
         break
-    else:
-        retry = retry - 1
+    else:  
         if retry > 0:
             print(f'incorrect password! You have {retry} times rerty')
         else:
