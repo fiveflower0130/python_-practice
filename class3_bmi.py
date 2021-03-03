@@ -6,8 +6,12 @@ if weight == '':
 if height == '':
     print("Height can't be null!!")
     raise SystemExit
+# Transfer string to float
+weight = float(weight)
 height = float(height / 100)
-BMI = float(weight) / (height * height)
+
+# count BMI
+BMI = weight / (height * height)
 if BMI != 0 and BMI != None:
     print(f'Yor BMI is {BMI}')
     if BMI < 18.5:
