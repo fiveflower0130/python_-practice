@@ -39,3 +39,7 @@ print(f"There are {len(good)} messages which has include the word 'good' ")
 
 good = [d for d in data if 'good' in d]
 print(good[0])
+
+# bad = [d for d in data]
+bad = ['bad' in d for d in data]
+print(bad)
