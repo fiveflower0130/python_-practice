@@ -1,0 +1,6 @@
+rice
+beef
+pork
+chicken
+noodle
+cake
