@@ -34,7 +34,7 @@ def convert(lines):
     print(
         f"Allen totally say {allen_msg_count} words, paste {allen_pic_count} pictures, paste {allen_sticker_count} stickers")
     print(
-        f"Viki totally say {viki_msg_count} words, paste {viki_pic_count} pictures, paste {viki_sticker_count} stickers")
+        f"Viki totally say {viki_msg_count} words, paste {viki_pic_count} pictures, paste{viki_sticker_count} stickers")
 
 
 def read_file(filename):
