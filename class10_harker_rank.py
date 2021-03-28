@@ -86,3 +86,16 @@ import sys
 # removestr(s, t)
 
 # save
+# for i in range(int(input())):
+#     s = input()
+#     # [::2]-> 從list 0的位置開始到-1結束中間格為2 [1::2]->從1的位置開始到-1結束中間間隔2
+#     print(s[::2], s[1::2])
+
+# List and map
+# arr = [1,4,3,2]
+# print(" ".join(map(str, arr[::-1])))
+
+
+
+
+
