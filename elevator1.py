@@ -5,7 +5,7 @@ from copy import deepcopy
 
 class Elevator(object):
     """An elevator class. Elevator has its position, customers inside and direction."""
-    register_list = list()
+    register_list = []
     current_floor = 0
     direction = 1
 
