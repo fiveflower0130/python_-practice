@@ -12,8 +12,11 @@ import sys
 def caesarCipher(s, k):
     ori1 = 'abcdefghijklmnopqrstuvwxyz'
     ori2 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    if k > 26:
+        k = k % 26
     trans1 = ori1[k:]+ori1[:k]
     trans2 = ori2[k:]+ori2[:k]
+    print(trans1)
     tmps = ''
     for i in range(len(s)):
         if s[i].islower():
