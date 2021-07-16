@@ -32,10 +32,10 @@ def write_file(filename, lines):
 
 
 def main():
-    name = "input.txt"
+    name = "../read/input.txt"
     lines = read_file(name)
     news_lines = convert(lines)
-    write_file("output.txt", news_lines)
+    write_file("../output/output.txt", news_lines)
 
 
 main()
