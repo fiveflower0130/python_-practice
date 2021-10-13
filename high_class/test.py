@@ -1,3 +1,8 @@
+class Superman:
+    """This is superman
+    """
+    pass
+
 def find_max(a_list):
     if not a_list:
         return 0
